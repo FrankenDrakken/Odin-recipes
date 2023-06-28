@@ -3,6 +3,7 @@
     max-width: 1900px;
     box-sizing: border-box;
     background-color: antiquewhite;
+    outline: 1px dotted red;
 }
 h1,h2,h3 {
     font-size: 40px;
