@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+    max-width: 1900px;
+    box-sizing: border-box;
+    background-color: lightyellow;
+    line-height: 1,5;
+    font-size: 25px;
+}
+ul,li {
+    list-style-type: none;
+}
+h1,h3 {
+    font-size: 40px;
+}
+body {
+    border: 3px solid red;
+}
