@@ -1,17 +1,25 @@
 * {
     text-align: center;
-    box-sizing: border-box;
     outline: 3px solid red;
 }
 h1,h2,h3 {
     font-size: 40px;
+    padding: 30px;
+    margin-left: 370px;
+    margin-right: 370px;
 } 
 .panizza .title1 {
     color: red;
+    margin: 10px 50px 10px 50px;
+    padding: 20px;
+    height: 47px;
+    width: 1112px;
+    margin-left: 370px;
+    margin-right: 370px;
+    background-color: skyblue;
 }
 body {
     background-color: blanchedalmond;
-    max-width: 1900px;
 }
 .img {
     width: 500px;
@@ -29,15 +37,18 @@ body {
 .deco .gre1 {
     background-color: aquamarine;
     padding: 10px;
-    border: 0px solid white;
-    margin-right: 530px;
-    width: auto;
-    height: auto;
+    border: 10px solid transparent;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 800px;
 }
 .deco .gre2 {
     background-color: aqua;
     padding: 10px;
-    border: 0px solid white;
-    margin-left: 530px;
-
+    border: 10px solid transparent;
+    margin-left: 10px;
+    width: 200px;
+    height: 800px;
+    margin-top: 10px;
 }
