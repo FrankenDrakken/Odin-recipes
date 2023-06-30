@@ -1,7 +1,4 @@
-* {
-    text-align: center;
-    outline: 3px solid red;
-}
+
 h1,h2,h3 {
     font-size: 40px;
     padding: 30px;
@@ -20,6 +17,18 @@ h1,h2,h3 {
 }
 body {
     background-color: blanchedalmond;
+    text-align: center;
+}
+.greco1 {
+    height: 900px;
+    width: 250px;
+    position: absolute;
+}
+.greco2 {
+    height: 900px;
+    width: 250px;
+    position: absolute;
+    left: 1050px;
 }
 .img {
     width: 500px;
@@ -33,21 +42,20 @@ body {
 .links {
     font-size: 30px;
     background-color: yellowgreen;
+    padding: 10px;
 }
-.deco .gre1 {
-    background-color: aquamarine;
+.gre1 {
     padding: 10px;
     border: 10px solid transparent;
-    margin-right: 10px;
+    margin-right: 600px;
     margin-top: 10px;
     width: 200px;
     height: 800px;
 }
-.deco .gre2 {
-    background-color: aqua;
+.gre2 { 
     padding: 10px;
     border: 10px solid transparent;
-    margin-left: 10px;
+    margin-left: 600px;
     width: 200px;
     height: 800px;
     margin-top: 10px;
