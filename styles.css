@@ -1,4 +1,7 @@
-
+* {
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
 h1,h2,h3 {
     font-size: 40px;
     padding: 30px;
@@ -7,13 +10,13 @@ h1,h2,h3 {
 } 
 .panizza .title1 {
     color: red;
-    margin: 10px 50px 10px 50px;
     padding: 20px;
-    height: 47px;
-    width: 1112px;
-    margin-left: 370px;
-    margin-right: 370px;
+    height: 97px;
+    width: 1100px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: skyblue;
+    position: relative;
 }
 body {
     background-color: blanchedalmond;
@@ -23,12 +26,13 @@ body {
     height: 900px;
     width: 250px;
     position: absolute;
+    right: 1025px;
 }
 .greco2 {
     height: 900px;
     width: 250px;
     position: absolute;
-    left: 1050px;
+    left: 1025px;
 }
 .img {
     width: 500px;
@@ -44,18 +48,16 @@ body {
     background-color: yellowgreen;
     padding: 10px;
 }
-.gre1 {
+.greco1 .gre1 {
     padding: 10px;
     border: 10px solid transparent;
-    margin-right: 600px;
     margin-top: 10px;
     width: 200px;
     height: 800px;
 }
-.gre2 { 
+.greco2 .gre2 { 
     padding: 10px;
     border: 10px solid transparent;
-    margin-left: 600px;
     width: 200px;
     height: 800px;
     margin-top: 10px;

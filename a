@@ -1,0 +1,101 @@
+[33mcommit a2838479a384c8d0589ebc5e335e40d86838b7f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Thu Jun 29 02:14:51 2023 -0600
+
+    calibrated positions
+
+[33mcommit a2527a6ed80ebf80756aca9951ce0d872d76ca20[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Thu Jun 29 01:00:15 2023 -0600
+
+    added greek pillars and removed mistake in gre1
+
+[33mcommit 5cf933ac569f38e00a0244f67b03880c7b4efe05[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Thu Jun 29 00:58:59 2023 -0600
+
+    added Greek columns
+
+[33mcommit 6e604a01f3aa5106ebe5aebab218fca97bc10532[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Wed Jun 28 01:07:57 2023 -0600
+
+    outlines
+
+[33mcommit 4f4546c39f8155e0b85545eb075596a6a023d29b[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 27 23:22:48 2023 -0600
+
+    added basic CSS design
+
+[33mcommit 7fbf11a52b9753c9864fbe3982dbf93bdcd017dc[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Thu Jun 22 16:45:28 2023 -0600
+
+    CSS addded
+
+[33mcommit d7a5ce69670b133ecd425bd98748588a26133df1[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Wed Jun 7 02:05:05 2023 -0600
+
+    Finished Rosca Cremona page
+
+[33mcommit e039805dc4bb2f95361f781328508e93ffeb811c[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Wed Jun 7 01:29:13 2023 -0600
+
+    Added extra imgs and body for Rosca Cremona
+
+[33mcommit d785c21c042115ba4441c7b971a38a9802da656e[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 23:49:39 2023 -0600
+
+    added Roscremona to recipes
+
+[33mcommit 9c6bddffda922e213d86bca7dfe04291ac2fe926[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 23:00:14 2023 -0600
+
+    Finished panpizza page
+
+[33mcommit 958f38e82eb5b76ab48bb895f38322f4fc901a86[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 20:46:10 2023 -0600
+
+    added dir for images
+
+[33mcommit 5d66a1046ec31b17bf112b5a7ea7e7f07b4e2422[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 12:30:35 2023 -0400
+
+    added details for toppings
+
+[33mcommit 660fdc6786c06206cf55523066b87b46c9751589[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 10:29:58 2023 -0400
+
+    Added preparation
+
+[33mcommit 1af29a92df3dba522b3206af43bae79da6db18ff[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 10:25:19 2023 -0400
+
+    added body to panpizza.html
+
+[33mcommit bebb97feff516653807aa92081df466103d2af77[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 02:29:30 2023 -0400
+
+    Problem with <p> so far
+
+[33mcommit 1afea24d6dc38c1d4b4e5a5d1e38fc2557cee7a3[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 01:52:25 2023 -0400
+
+    Description of current skills
+
+[33mcommit ecd81f85549c9d206e1366563dd78d97eaeb7a5c[m
+Author: FrankenDrakken <134591963+FrankenDrakken@users.noreply.github.com>
+Date:   Tue Jun 6 01:39:59 2023 -0400
+
+    Initial commit
