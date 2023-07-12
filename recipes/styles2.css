@@ -1,11 +1,12 @@
 * {
     background-color: lightyellow;
     line-height: 1,5;
+    outline: 1px solid red;
 }
 .Pantitle {
     padding-right: 20px;
     padding-left: 20px;
-    margin: 20px 350px 20px 350px;
+    margin: auto 400px 30px;
     position: relative;
     background-color: bisque;
 }
@@ -14,10 +15,23 @@ ul,li {
     list-style-type: none;
 }
 
-h1,h2,h3 {
+h1,h3 {
     font-size: 50px;
     margin: 20px 350px 20px 350px;
     background-color: bisque;
+}
+
+.list1 {
+    display: inline-block;
+    margin: 0px 5x;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.list2 {
+    display: inline-block;
+    margin: 0px 5x;
+    padding: 10px;
 }
 
 body {
@@ -28,8 +42,9 @@ body {
 }
 
 .uniquelist {
+    display: block;
     font-size: 25px;
-    margin: 20px 350px 20px 350px;
+    margin: 20px 50px 20px 50px;
 }
 
 a {
