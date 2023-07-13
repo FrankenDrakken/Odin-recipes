@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 h1,h2,h3 {
     font-size: 40px;
@@ -60,4 +61,20 @@ body {
     width: 200px;
     height: 800px;
     margin-top: 10px;
+}
+
+.expanded_page {
+    width: 700px;
+    height: 100px;
+    margin: 0px auto;
+    align-self: center;
+}
+.expanded_page > .extra_pages {
+    margin: 40px auto;
+    font-size: 30px;
+}
+.container_unique > .unique_link {
+    background-color: darkseagreen;
+    font-size: 30px;
+    padding: 3px;
 }
