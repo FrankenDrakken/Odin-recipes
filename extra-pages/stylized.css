@@ -11,7 +11,7 @@ body {
     padding: 10px;
     border: 3px solid red;
     height: 400px;
-    width: 1100px;
+    width: 1110px;
     background-color: deepskyblue;
     display: flex;
     align-items: center;
@@ -34,8 +34,9 @@ body {
     padding: 10px;
     border: 3px solid red;
     height: 800px;
-    width: 400px;
+    width: 350px;
     background-color: plum;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -46,6 +47,10 @@ body {
     text-align: center;
     width: 180px;
     height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sidebar > :nth-child(2) {
@@ -53,6 +58,9 @@ body {
     text-align: center;
     width: 180px;
     height: 180px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .sidebar > :nth-child(3) {
@@ -60,10 +68,20 @@ body {
     text-align: center;
     width: 180px;
     height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.span {
-    display: block;
+span {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tzatziki {
+    display: flex;
     justify-content: center;
     margin: 10px;
 }
