@@ -3,6 +3,30 @@
 }
 
 .header {
+    padding: 10px;
+    border: 3px solid red;
+    height: 200px;
+    background-color: plum;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header > :nth-child(1) {
+    background-color: white;
+    text-align: center;
+}
+
+.header > :nth-child(2) {
+    background-color: white;
+    text-align: center;
+}
+
+.header > :nth-child(3) {
+    background-color: white;
+    text-align: center;
+}
+
+.span {
+    display: block;
 }
