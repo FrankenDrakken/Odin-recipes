@@ -5,7 +5,6 @@
 body {
     display: flex;
 }
-
 .main-content {
     padding: 10px;
     border: 3px solid red;
@@ -16,27 +15,29 @@ body {
     align-items: center;
     justify-content: space-around;
     flex: 1 1 auto;
-    position: relative;
+    flex-direction: row;
 }
 
 .main-content > :nth-child(1) {
     padding: 5px;
     background-color: white;
-    width: 350px;
-    height: 250px;
+    width: 16em;
+    height: 12em;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 0;
 }
 
 .main-content > :nth-child(2) {
     padding: 5px;
     background-color: white;
-    width: 350px;
-    height: 250px;
+    width: 16em;
+    height: 12em;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 0;
 }
 
 .sidebar {
@@ -96,6 +97,16 @@ span {
     margin: 10px;
 }
 
-.main-buttons {
-    position: absolute;
+body > .main-buttons {
+    display: flex;
+    align-self: flex-end;
+    flex-flow: column;
+    width: 24em;
+    height: 24em;
+    padding: 10px;
+    border: 2px solid rebeccapurple;
+    margin-right: 50%;
+}
+.but {
+    display: flex;
 }
