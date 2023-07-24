@@ -1,56 +1,81 @@
-* {
-    outline: 1px solid red;
+
+header {
+    background-color: #eeeeee;
+    padding: 20px;
+    border: 3px solid red;
+    font-size: 24px;
+    font-weight: 900;
 }
 
-body {
+.flex-container {
     display: flex;
+    flex: 1;
+    margin: 0;
+    min-height: 100vh;
 }
+
 .main-content {
-    padding: 10px;
+    padding: 5px;
     border: 3px solid red;
-    height: 300px;
-    width: 1110px;
     background-color: deepskyblue;
     display: flex;
+    flex-direction: column;    
     align-items: center;
-    justify-content: space-around;
-    flex: 1 1 auto;
-    flex-direction: row;
+    justify-content: start;
+    flex: 1 1 75%;
+    flex-direction: column;
 }
 
 .main-content > :nth-child(1) {
     padding: 5px;
     background-color: white;
-    width: 16em;
+    border: 2px solid darkblue;
     height: 12em;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1 1 50%;
+}
+
+.child4,.child5{
+    display: flex;
     flex: 1 1 0;
 }
 
-.main-content > :nth-child(2) {
+.main-content .but-container {
     padding: 5px;
     background-color: white;
-    width: 16em;
-    height: 12em;
+    border: 2px solid darkblue;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 0;
+    flex: 1 1 50%;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 25px;
+    flex: 1 1 auto;
+}
+
+.but {
+    border: 1px solid rebeccapurple;
+    height: 80px;
+    width: 100px;
+    flex-wrap: wrap;
 }
 
 .sidebar {
     padding: 10px;
     border: 3px solid red;
-    height: 800px;
-    width: 350px;
+    flex: 1 1 25%;
     background-color: plum;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1 1 auto;
 }
 
 .sidebar > :nth-child(1) {
@@ -95,18 +120,4 @@ span {
     display: flex;
     justify-content: center;
     margin: 10px;
-}
-
-body > .main-buttons {
-    display: flex;
-    align-self: flex-end;
-    flex-flow: column;
-    width: 24em;
-    height: 24em;
-    padding: 10px;
-    border: 2px solid rebeccapurple;
-    margin-right: 50%;
-}
-.but {
-    display: flex;
 }
