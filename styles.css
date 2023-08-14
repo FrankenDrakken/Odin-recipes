@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
 }
 h1,h2,h3 {
     font-size: 40px;
@@ -16,11 +15,10 @@ h1,h2,h3 {
     margin-left: 200px;
     margin-right: 200px;
     background-color: skyblue;
-    position: relative;
 }
-body {
-    background-color: blanchedalmond;
-    text-align: center;
+.page {
+    background-color: white;
+    text-align: center; 
 }
 .greco1 {
     height: 900px;
@@ -47,6 +45,7 @@ body {
     font-size: 30px;
     background-color: yellowgreen;
     padding: 10px;
+    text-decoration: none;
 }
 .greco1 .gre1 {
     padding: 10px;
@@ -74,7 +73,14 @@ body {
     font-size: 30px;
 }
 .container_unique > .unique_link {
+    border-radius: 16px;
     background-color: darkseagreen;
     font-size: 30px;
     padding: 3px;
+    text-decoration: none;
+}
+
+.container_unique {
+    display: flex;
+    flex-direction: column;
 }
